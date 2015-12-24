@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-axelerant",
+  "version": "0.1.0",
+  "author": "Bassam Ismail <skippednote@gmail.com>",
+  "description": "Axelerant's ESlint configurations",
+  "main": "index.js",
+  "scripts": {
+  },
+  "keywords": [
+    "eslint",
+    "axelerant",
+    "config"
+  ],
+  "homepage": "https://github.com/axelerant/eslint-config-axelerant",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/axelerant/eslint-config-axelerant"
+  },
+  "main": "index.js"
+}
