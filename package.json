@@ -1,8 +1,8 @@
 {
   "name": "eslint-config-axelerant",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Bassam Ismail <skippednote@gmail.com>",
-  "description": "Axelerant's ESlint configurations",
+  "description": "Axelerant's ESLint configurations",
   "main": "index.js",
   "scripts": {
   },

@@ -72,7 +72,7 @@ var config = {
         "no-inner-declarations": [2, "both"],
         "no-implicit-coercion": [2, {"boolean": true, "number": true, "string": true}],
         "no-invalid-regexp": 2,
-        "no-irregular-whitespace:" 2
+        "no-irregular-whitespace": 2,
         "no-lonely-if": 2,
         "no-inline-comments": 2,
         "no-mixed-spaces-and-tabs": 2,
@@ -81,7 +81,7 @@ var config = {
         "no-nested-ternary": 2,
         "no-new-object": 2,
         "no-obj-calls": 2,
-        "no-plusplus": 2, [{ allowForLoopAfterthoughts: true }],
+        "no-plusplus": [2, { allowForLoopAfterthoughts: true }],
         "no-restricted-syntax": [2, "FunctionExpression", "WithStatement"],
         "no-spaced-func": 2,
         "no-sparse-arrays": 2,
