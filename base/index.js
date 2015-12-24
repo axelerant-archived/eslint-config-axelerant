@@ -11,7 +11,6 @@ var config = {
     "es6": true,
     "node": true
   },
-
   rules: {
     "array-bracket-spacing": [2, "never"],
     "arrow-spacing": 2,
