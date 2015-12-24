@@ -7,7 +7,10 @@ This package provides Axelerant's .eslintrc as an extensible shared config.
 ## Usage
 
 * Install `eslint-config-axelerant` with additional required dependencies.
-  npm install --save-dev eslint babel-eslint eslint-config-axelerant
+
+```
+npm install --save-dev eslint babel-eslint eslint-config-axelerant
+```
 
 * Create a `.eslintrc` in the root of your project.
 
