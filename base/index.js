@@ -18,9 +18,9 @@ var config = {
     "block-scoped-var": 2,
     "block-spacing": [2, "always"],
     "brace-style": [2, "1tbs"],
-    "camelcase": [2, {"properties": "always"}],
-    "comma-dangle": [2, "never"], // TODO change when switching to babel
-    "comma-spacing": [2, {"after": true, "before": false}],
+    "camelcase": [2, { "properties": "always" }],
+    "comma-dangle": [2, "never"],
+    "comma-spacing": [2, { "after": true, "before": false }],
     "comma-style": [2, "last"],
     "complexity": [2, 2],
     "computed-property-spacing": [2, "never"],
@@ -34,16 +34,18 @@ var config = {
     "eqeqeq": [2, "smart"],
     "eol-last": 2,
     "func-names": 2,
-    "func-style": [2, "expression"], //TODO check reasons
-    "id-length": [2, {"min": 3, "max": 10, "properties": "never", "exceptions": ["x"]}],
-    "id-match": [2, "^[a-z]+([A-Z][a-z]+)*$", {"properties": false}],
-    "indent": [2, 2, {"SwitchCase": 1}],
+    "func-style": [2, "expression"],
+    "id-length": [2, { "min": 3, "max": 10, "properties": "never", "exceptions": ["x"] }],
+    "id-match": [2, "^[a-z]+([A-Z][a-z]+)*$", { "properties": false }],
+    "indent": [2, 2, { "SwitchCase": 1 }],
     "jsx-quotes": [2, "prefer-double"],
-    "key-spacing": [2, {"beforeColon": false, "afterColon": true}],
+    "key-spacing": [2, { "beforeColon": false, "afterColon": true }],
     "linebreak-style": [2, "unix"],
     "lines-around-comment": [2, { "beforeLineComment": true, "afterLineComment": true }],
     "max-depth": [2, 10],
-    "max-len": [2, 120, 2, {"ignoreComments": true, "ignoreUrls": true, "ignorePattern": "^\\s*var\\s.+=\\s*require\\s*\\("}],
+    "max-len": [2, 120, 2,
+      { "ignoreComments": true, "ignoreUrls": true, "ignorePattern": "^\\s*var\\s.+=\\s*require\\s*\\(" }
+    ],
     "max-nested-callbacks": [2, 3],
     "max-params": [2, 3],
     "max-statements": [2, 4],
@@ -70,13 +72,13 @@ var config = {
     "no-floating-decimal": 2,
     "no-func-assign": 2,
     "no-inner-declarations": [2, "both"],
-    "no-implicit-coercion": [2, {"boolean": true, "number": true, "string": true}],
+    "no-implicit-coercion": [2, { "boolean": true, "number": true, "string": true }],
     "no-invalid-regexp": 2,
     "no-irregular-whitespace": 2,
     "no-lonely-if": 2,
     "no-inline-comments": 2,
     "no-mixed-spaces-and-tabs": 2,
-    "no-multiple-empty-lines": [2, {"max": 2, "maxEOF": 1}],
+    "no-multiple-empty-lines": [2, { "max": 2, "maxEOF": 1 }],
     "no-negated-condition": 2,
     "no-nested-ternary": 2,
     "no-new-object": 2,
@@ -98,10 +100,10 @@ var config = {
     "operator-linebreak": [2, "none"],
     "padded-blocks": [2, "always"],
 
-    // "prefer-arrow-callback": 2, // TODO change when switching to babel
-    // "prefer-const": 2, // TODO change when switching to babel
-    // "prefer-spread": 2, // TODO change when switching to babel
-    // "prefer-template": 2, // TODO change when switching to babel
+    // "prefer-arrow-callback": 2,
+    // "prefer-const": 2,
+    // "prefer-spread": 2,
+    // "prefer-template": 2,
 
     "quotes": [2, "double", "avoid-escape"],
     "radix": 2,
